@@ -1,0 +1,41 @@
+<!-- function is a group of reusable code which can be called anywherer
+in your program
+
+basic syntax
+
+function function_name(parameter_list)
+{
+    fucntion_body
+} 
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <script>
+        function my_function(val)
+        {
+            document.getElementById("demo").innerHTML=val*val;
+        }
+        my_function(5);
+    </script>
+
+    <script>
+        let x=function()
+        {
+            alert("Hello!")
+        }
+        document.getElementById("demo").innerHTML=x;
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
