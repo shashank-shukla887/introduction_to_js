@@ -1,0 +1,48 @@
+<html><head><title>Js obj</title></head>
+<body>
+    <h1>Creating js obj</h1>
+    <p id="demo"></p>
+    <script>
+
+  //<---------------------using of objects--------------->
+       
+    //<-------making of object------->
+    var student={
+            name: "chris",
+            age:21,
+            studies:"Computer science",
+        };
+
+    //<-----use to write js----->
+        document.getElementById("demo").innerHTML=student.name+" of the age "+ student.age+student.studies   
+         </script>
+         
+        
+         <script>
+            //<------making of object----
+            var student=new Object
+            student.name="chr"
+            student.age=21
+            student.studies="computer science"
+            document.getElementById("demo").innerHTML=student.name+" of the age "+ student.age+student.studies   
+
+         </script>
+         <script>
+            function stud(name,age,studies)
+                  {
+                    this.name=name;
+                    this.age=age;
+                    this.studies=studies;
+                  }
+
+            var student=  document.getElementById("demo").innerHTML=student.name+" of the age "+ student.age+student.studies   
+
+         </script>
+
+         
+
+
+ 
+
+</body>
+</html>
